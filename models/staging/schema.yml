@@ -1,0 +1,8 @@
+sources:
+  - name: datafeed_shared_schema
+    database: "{{('DBT')}}"
+    schema: WORK
+
+    tables:
+      - name: STG_CUSTOMERS
+      - name : STG_ORDER
